@@ -1,3 +1,29 @@
+h1 {
+  display: grid;
+  justify-content: center;
+  margin-bottom: 100px;
+}
+
+ul {
+  list-style: none;
+}
+
+.todo {
+  display: grid;
+  grid-template-areas: "a a b b";
+  align-items: center;
+  justify-content: space-around;
+}
+
+.figuras {
+  grid-area: "a";
+}
+
+.ul {
+  grid-area: "b";
+  margin-top: 100px;
+  text-align: center;
+}
 .triangulo {
   height: 100px;
 }

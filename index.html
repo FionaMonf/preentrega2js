@@ -8,49 +8,51 @@
     <title>Document</title>
   </head>
   <body>
-    <h1>Calculo de areas</h1>
+    <h1>Cálculo de areas</h1>
     <div>
-      <div>
-        <img
-          src="Imagenes/triangle-png.png"
-          alt="triangulo"
-          class="triangulo"
-        />
-        <p>Base <input type="number" id="baseT" /></p>
-        <p>Altura <input type="number" id="alturaT" /></p>
-        <button onclick="crearTriangulo()">Calcular</button>
+      <div class="todo">
+        <div class="figurass">
+          <img
+            src="Imagenes/triangle-png.png"
+            alt="triangulo"
+            class="triangulo"
+          />
+          <p>Base <input type="number" id="baseT" /></p>
+          <p>Altura <input type="number" id="alturaT" /></p>
+          <button onclick="crearTriangulo()">Calcular</button>
+        </div>
+        <div>
+          <img
+            src="Imagenes/neon-pink-square-banner-neon-square-png.webp"
+            alt="cuadrado"
+            class="cuadrado"
+          />
+          <p>Lado <input type="number" id="lado" /></p>
+          <button onclick="crearCuadrado()">Calcular</button>
+        </div>
+        <div>
+          <img
+            src="Imagenes/icone-cercle-rempli-bleu.png"
+            alt="circulo"
+            class="circulo"
+          />
+          <p>Radio <input type="number" id="radio" /></p>
+          <button onclick="crearCirculo()">Calcular</button>
+        </div>
+        <div>
+          <img
+            src="Imagenes/neon-red-rectangle-banner-neon-rectangle-png.webp"
+            alt="rectangulo"
+            class="rectangulo"
+          />
+          <p>Base <input type="number" id="baseR" /></p>
+          <p>Altura <input type="number" id="alturaR" /></p>
+          <button onclick="crearRectangulo()">Calcular</button>
+        </div>
       </div>
-      <div>
-        <img
-          src="Imagenes/neon-pink-square-banner-neon-square-png.webp"
-          alt="cuadrado"
-          class="cuadrado"
-        />
-        <p>Lado <input type="number" id="lado" /></p>
-        <button onclick="crearCuadrado()">Calcular</button>
+      <div class="ul">
+        <ul id="resultados"></ul>
       </div>
-      <div>
-        <img
-          src="Imagenes/icone-cercle-rempli-bleu.png"
-          alt="circulo"
-          class="circulo"
-        />
-        <p>Radio <input type="number" id="radio" /></p>
-        <button onclick="crearCirculo()">Calcular</button>
-      </div>
-      <div>
-        <img
-          src="Imagenes/neon-red-rectangle-banner-neon-rectangle-png.webp"
-          alt="rectangulo"
-          class="rectangulo"
-        />
-        <p>Base <input type="number" id="baseR" /></p>
-        <p>Altura <input type="number" id="alturaR" /></p>
-        <button onclick="crearRectangulo()">Calcular</button>
-      </div>
-    </div>
-    <div>
-      <ul id="resultados"></ul>
     </div>
   </body>
 </html>
