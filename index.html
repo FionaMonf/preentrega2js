@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="./style.css" />
+    <script src="./main.js"></script>
+    <title>Document</title>
+  </head>
+  <body>
+    <h1>Calculo de areas</h1>
+    <div>
+      <div>
+        <img
+          src="Imagenes/triangle-png.png"
+          alt="triangulo"
+          class="triangulo"
+        />
+        <p>Base <input type="number" id="baseT" /></p>
+        <p>Altura <input type="number" id="alturaT" /></p>
+        <button onclick="crearTriangulo()">Calcular</button>
+      </div>
+      <div>
+        <img
+          src="Imagenes/neon-pink-square-banner-neon-square-png.webp"
+          alt="cuadrado"
+          class="cuadrado"
+        />
+        <p>Lado <input type="number" /></p>
+        <button>Calcular</button>
+      </div>
+      <div>
+        <img
+          src="Imagenes/icone-cercle-rempli-bleu.png"
+          alt="circulo"
+          class="circulo"
+        />
+        <p>Radio <input type="number" /></p>
+        <button>Calcular</button>
+      </div>
+      <div>
+        <img
+          src="Imagenes/neon-red-rectangle-banner-neon-rectangle-png.webp"
+          alt="rectangulo"
+          class="rectangulo"
+        />
+        <p>Base <input type="number" /></p>
+        <p>Altura <input type="number" /></p>
+        <button>Calcular</button>
+      </div>
+    </div>
+    <div>
+      <ul id="resultados"></ul>
+    </div>
+  </body>
+</html>
